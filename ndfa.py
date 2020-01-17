@@ -30,7 +30,7 @@ for char in alpha_str:
                         next_states += tmp
         states = list(set(next_states))
 
-        if sys.argv[1] == "d":
+        if len(sys.argv) == 2 and sys.argv[1] == "d":
                 print(char + ": " + states)
 
 for state in states:

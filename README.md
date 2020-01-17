@@ -14,5 +14,5 @@ m1 (if the next letter in the alphabet is m then it will transition into state 1
 to run the code run the python file ndfa.py . optionally if you include the argument d then it will output debugging information in the form [character]: [states after the character]                                                      
 the alphabet is stored in alphabet.txt                           
 
-for an example of a fully working program that will detect any string that has main in it in that order see the files included in the github.                   
+for an example of a fully working program that will detect any string that has main in it in that order see the files included in the github. Also if you want an alphabet the code will accept rename alphabetaccept.txt to just alphabet.txt                   
 though the only file you need to create your own is ndfa.py.                         
